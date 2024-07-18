@@ -1,0 +1,130 @@
+.next-right-button {
+    float: right;
+}
+
+.next-right-button button {
+    margin: 0 10px;
+    padding: 6px 25px;
+    background-color: #fff;
+    border: 1px solid #ffc107;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #81C408;
+}
+
+.heading-part h3 {
+    color: #81C408;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.heading-part h1 {
+    color: #45595b;
+    font-size: 50px;
+}
+
+.testimonial {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.testimonial-text {
+    width: 49%;
+    height: auto;
+    background: #f4f6f8;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.testimonial-text hr {
+    margin: 1rem 0;
+    border-color: #ffb524;
+    border-block-end: none;
+}
+
+.testimonial .client-info {
+    justify-content: flex-start;
+}
+
+.testimonial .client-info .text-pera {
+    padding-left: 20px;
+}
+
+.testimonial .client-info img {
+    border-radius: 10px;
+}
+
+.testimonial .client-info .quote-right {
+    padding-left: 38%;
+}
+
+.testimonial .client-info .quote-right .svg-inline--fa {
+    color: #ffb524;
+    font-size: 50px;
+}
+
+.testimonial .client-info .text-pera h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #747d88;
+}
+
+.testimonial-text {color: #747d88;}
+.testimonial .client-info .text-pera p {
+    color: #747d88;
+    padding: 10px 0px;
+}
+
+.testimonial-text .svg-inline--fa {
+    color: #81C408;
+}
+
+
+/* media for 900 width's devices */
+
+@media(max-width: 900px) {
+    .testimonial .client-info .text-pera h1 {font-size: 20px;}
+    .testimonial .client-info .quote-right {
+        padding-left: 30%;
+    }
+}
+
+
+/* media for 768 width's devices */
+@media(max-width: 600px) {
+    .testimonial .client-info .quote-right {
+        padding-left: 0;
+    }
+    .heading-part h1 {
+        padding-bottom: 1rem;
+    }
+    .testimonial-text {
+        width: 49%;
+        padding: 14px;
+    }
+    .testimonial .client-info .quote-right .svg-inline--fa {
+        font-size: 30px;
+    }
+}
+
+
+@media(min-width: 320px) and (max-width:480px){
+    .testimonial-text {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .testimonial .flex-main {
+        flex-wrap: wrap;
+    }
+    .testimonial .client-info .quote-right {
+        padding-left: 90%;
+    }
+    .heading-part h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+

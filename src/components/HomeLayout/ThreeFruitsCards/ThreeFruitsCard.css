@@ -1,0 +1,157 @@
+.three-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.three-cards .main {
+    width: 32%;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.three-cards .one-card {
+    border: 1px solid #ffc107;
+}
+
+.three-cards .two-card {
+    border: 1px solid #45595b;
+}
+
+.three-cards .three-card {
+    border: 1px solid #81C408;
+}
+
+.darkGrayBg,
+.greenBg,
+.orangeBg {
+    width: auto;
+    background: #ffb524;
+    height: 23vh;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.one-card .inner-text,
+.two-card .inner-text,
+.three-card .inner-text {
+    width: 250px;
+    height: 120px;
+    background: #81C408;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+}
+
+
+.one-card .inner-text h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.two-card .inner-text h4 {
+    text-align: center;
+    color: #81C408;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.three-card .inner-text h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+
+.one-card .inner-text p {
+    color: #45595b;
+    font-size: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.two-card .inner-text p {
+    color: #45595b;
+    font-size: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+.three-card .inner-text p {
+    color: #45595b;
+    font-size: 25px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+
+@media(max-width: 1024px) {
+    .one-card .inner-text, .two-card .inner-text, .three-card .inner-text {
+        width: 190px !important;
+        left: 16% !important;
+        bottom: 10% !important
+    }
+    .darkGrayBg, .greenBg, .orangeBg {
+        height: 15vh;
+    }
+}
+
+@media(max-width: 768px) {
+    .one-card .inner-text, .two-card .inner-text, .three-card .inner-text {
+        width: 190px !important;
+        left: 6% !important;
+    }
+    .container {
+        padding: 6rem 0!important;
+    }
+}
+
+@media(max-width: 600px) {
+    .one-card .inner-text, .two-card .inner-text, .three-card .inner-text {
+        width: 145px !important;
+    }
+    .three-card .inner-text h4,
+    .two-card .inner-text h4,
+    .one-card .inner-text h4 {
+        font-size: 18px;
+    }
+    .three-card .inner-text p,
+    .two-card .inner-text p,
+    .one-card .inner-text p {
+        font-size: 20px;
+    }
+    .one-card .inner-text, .two-card .inner-text, .three-card .inner-text {
+        height: 100px;
+    }
+}
+
+/* @media(max-width: 414px) {
+    .three-cards .main {
+        width: 100%;
+    }
+} */
+
+@media(min-width: 320px) and (max-width:480px){
+    .three-cards {
+        flex-wrap: wrap;
+    }
+    .three-cards .main {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .one-card .inner-text, .two-card .inner-text, .three-card .inner-text {
+        left: 22% !important;
+    }
+}

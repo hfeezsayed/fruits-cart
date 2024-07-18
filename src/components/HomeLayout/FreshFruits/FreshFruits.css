@@ -1,0 +1,139 @@
+.fresh-fruits .flex-main {
+    padding: 2% 6%;
+}
+
+.fresh-fruits .left-div h1 {
+    font-size: 60px;
+    
+    padding-top: 5rem;
+    color: #fff;
+}
+
+.fresh-fruits .left-div h2 {
+    color: #45595b;
+    font-weight: 500;
+    font-size: 60px;
+    padding: 20px 0px;
+    padding-top: 10px;
+}
+
+.fresh-fruits .left-div p {
+    color: #45595b;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.fresh-fruits .left-div button {
+    width: 120px;
+    height: 60px;
+    border: 2px solid #fff;
+    background: #ffb524;
+    border-radius: 50px;
+    color: #45595b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right-div .discount {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fresh-fruits .right-div {
+    position: relative;
+}
+
+.fresh-fruits .right-div .discount {
+    position: absolute;
+    top: 2%;
+    left: 8%;
+}
+
+.fresh-fruits .right-div .discount h1 {
+    font-size: 70px;
+    color: #45595b;
+}
+
+.fresh-fruits .right-div .discount p {
+    font-size: 20px;
+    text-align: left;
+    color: #45595b;
+}
+
+@media(max-width: 900px) {
+    .fresh-fruits .right-div img {
+        width: 100%;
+    }
+    .fresh-fruits .left-div h1 {
+        padding-top: 1rem;
+        font-size: 50px;
+    }
+    .fresh-fruits .left-div h2 {
+        font-size: 50px;
+        padding: 10px 0px;
+    }
+    .fresh-fruits .left-div button {height: 50px;}
+}
+
+@media(max-width: 600px) {
+    .fresh-fruits .left-div h1 {
+        font-size: 40px;
+    }
+    .fresh-fruits .left-div h2 {
+        font-size: 38px;
+    }
+    .fresh-fruits .left-div p {
+        font-size: 14px;
+    }
+    .fresh-fruits .left-div button {
+        height: 45px;
+    }
+    .fresh-fruits .flex-main {
+        padding: 4% 6%;
+    }
+    .fresh-fruits .right-div .discount h1 {
+        font-size: 50px;
+    }
+    .right-div .discount {
+        width: 80px;
+        height: 80px;
+    }
+    .fresh-fruits .right-div .discount p {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:480px){
+    .fresh-fruits .left-div h1 {
+        font-size: 23px;
+    }
+    .fresh-fruits .left-div h2 {
+        font-size: 20px;
+    }
+    .fresh-fruits .left-div p {
+        font-size: 12px;
+    }
+    .fresh-fruits .left-div button {
+        width: 100px;
+        height: 40px;
+    }
+    .fresh-fruits .right-div .discount {
+        width: 60px;
+        height: 60px;
+        top: 0;
+        left: 0;
+    }
+    .fresh-fruits .right-div .discount p {
+        font-size: 12px;
+    }
+    .fresh-fruits .right-div .discount h1 {
+        font-size: 30px;
+        
+    }
+}

@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Grapes",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40122445_4-fresho-grapes-green-residue-free.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters",
+      "price": 4.99,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Black Grapes",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/20001009_11-fresho-grapes-bangalore-blue.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "A Black grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters",
+      "price": 6.99,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Orange",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/20000909_18-fresho-orange-imported.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "Oranges are citrus fruits with fragrant, leathery skin and juicy flesh. The most common types are the sweet (or common) orange, the sour (or Seville) orange, and the mandarin orange",
+      "price": 10.99,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title": "Banana",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40179391_6-fresho-baby-banana-robusta.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "Banana is a very popular fruit due to its low price and high nutritive value. It is consumed in fresh or cooked form both as ripe and raw fruit. Banana is a rich source of carbohydrate.",
+      "price": 7.99,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "title": "Guava",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/10000369_13-fresho-guava.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "Guava fruit and leaves contain nutrients, including vitamin C and potassium, that may help support your heart, digestion, and other body systems Guava is a common tropical fruit cultivated.",
+      "price": 10.99,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "title": "Pomegranate",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40120006_6-fresho-pomegranate-small.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "fruit",
+      "description": "Guava fruit and leaves contain nutrients, including vitamin C and potassium, that may help support your heart, digestion, and other body systems Guava is a common tropical fruit cultivated.",
+      "price": 11.99,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title": "Radish",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40300933_1-fresho-radish-white-with-leaves.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "vegetable",
+      "description": "The radish is a flowering plant in the mustard family, Brassicaceae. Its large taproot is commonly used as a root vegetable, although the entire plant is edible and its leaves are sometimes used as a leaf vegetable.",
+      "price": 3.99,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title": "Lady Finger",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/10000142_17-fresho-ladies-finger.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "vegetable",
+      "description": "Ladyfinger has vitamin C and is rich in fibre. The fibre may help remove the toxic waste, and vitamin C may help with pigmentation of the skin, repair the tissues of the body, and aid in managing psoriasis.",
+      "price": 6.99,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "title": "Palak",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/10000187_14-fresho-palak-cleaned-without-roots.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "vegetable",
+      "description": "Spinach is a leafy green flowering plant native to central and Western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+      "price": 9.99,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "title": "Potato",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40047637_4-fresho-potato-chandramukhi-organically-grown.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "vegetable",
+      "description": "The potato is a starchy root vegetable native to the Americas that is consumed as a staple food in many parts of the world. Potatoes are tubers of the plant Solanum tuberosum, a perennial in the nightshade family Solanaceae.",
+      "price": 5.99,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "title": "Mutton Meat",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40197943_1-fresho-mutton-steak.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "meat",
+      "description": "Meat is valued as a complete protein food containing all the amino acids necessary for the human body. The fat of meat, which varies widely with the species, quality, and cut, is a valuable source of energy and also influences the flavour.",
+      "price": 20.99,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "title": "Jhatka Mutton Meat",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/40202520_1-fresho-jhatka-mutton-boneless.jpg?tr=w-1920,q=80",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt",
+      "category": "meat",
+      "description": "Jhatka mutton Meat is valued as a complete protein food containing all the amino acids necessary for the human body. The fat of meat, which varies widely with the species, quality, and cut, is a valuable source of energy and also influences the flavour.",
+      "price": 18.99,
+      "quantity": 1
+    }
+  ]
+}
